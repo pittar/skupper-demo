@@ -4,7 +4,7 @@ Deploy frontend in "DC1":
 
 ```
 oc login <cluster 1>
-oc apply -k frontend
+oc apply -k frontend -n frontend
 ```
 
 Initialize Skupper in "DC1" and create a token.
