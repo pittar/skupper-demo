@@ -67,6 +67,7 @@ skupper status
 There is one last thing to do while logged in to this cluster - export the secret!
 
 ```
+mkdir -p token
 oc get secret skupper-secret -o yaml > token/token.yaml
 ```
 
