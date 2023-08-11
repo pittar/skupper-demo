@@ -9,3 +9,5 @@ resources:
   - 02-petclinic-svc.yaml
   - 03-petclinic-route.yaml
   - 04-petclinicdb-secret.yaml
+  - 05-skupper-site-cm.yaml
+  - 06-skupper-site-secret.yaml
