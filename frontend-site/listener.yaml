@@ -1,0 +1,8 @@
+apiVersion: skupper.io/v2alpha1
+kind: Listener
+metadata:
+  name: petclinicdb
+spec:
+  routingKey: petclinicdb
+  host: petclinicdb
+  port: 3306

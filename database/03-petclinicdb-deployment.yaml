@@ -25,6 +25,7 @@ spec:
       creationTimestamp: null
       labels:
         name: petclinicdb
+        app: petclinicdb
     spec:
       containers:
       - env:

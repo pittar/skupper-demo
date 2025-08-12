@@ -8,4 +8,4 @@ resources:
   - 01-petclinicdb-pvc.yaml
   - 02-petclinicdb-secret.yaml
   - 03-petclinicdb-deployment.yaml
-  - 04-skupper-site-cm.yaml
+  #- 04-skupper-site-cm.yaml

@@ -47,10 +47,10 @@ spec:
         name: petclinic
         resources:
           limits:
-            memory: 512Mi
-            cpu: '1'
+            memory: 1Gi
+            cpu: '2'
           requests:
-            memory: 512Mi
+            memory: 1Gi
             cpu: 250m
         readinessProbe:
           httpGet:
