@@ -1,4 +1,6 @@
 namespace: frontend
 
 resources:
-  - listener.yaml
+  - ../../base
+  - site.yaml
+
