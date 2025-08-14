@@ -1,6 +1,6 @@
 namespace: database
 
 resources:
-  #- site.yaml
+  - site.yaml
   - connector.yaml
   - skupper-network-observer.yaml

@@ -5,4 +5,4 @@ resources:
   - 01-petclinicdb-pvc.yaml
   - 02-petclinicdb-secret.yaml
   - 03-petclinicdb-deployment.yaml
-  - site.yaml
+  #- site.yaml

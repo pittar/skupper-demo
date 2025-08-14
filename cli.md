@@ -1,6 +1,20 @@
 # Skupper Demo
 
+## Deploy Database
+
+In one cluster, deploy the database.  This is just a simple MySQL `Deployment`.  There is no route.
+
+```
+oc apply -k database
+```
+
+
+```
+skupper link generate > token.yaml
+```
+
 Deploy frontend in "DC1":
+
 
 ```
 oc login <cluster 1>
